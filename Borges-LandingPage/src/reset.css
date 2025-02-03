@@ -1,0 +1,8 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f8f8; /* Off-white */
+    color: #000; /* Preto para contraste */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
