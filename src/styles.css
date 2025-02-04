@@ -33,17 +33,17 @@ section {
     font-weight: bold;
 }
 
-/* Posiciona o container das redes sociais na altura desejada */
+/* Posiciona o container das redes sociais */
 .social-container {
-    width: 80%; /* Mantém dentro do espaço adequado */
-    max-width: 250px; /* Evita que fique muito largo */
-    height: 50px; /* Altura do retângulo */
-    border: 2px solid #0047AB; /* Borda azul */
-    border-radius: 10px; /* Bordas arredondadas */
+    width: 80%;
+    max-width: 250px;
+    height: 50px;
+    border: 2px solid #0047AB;
+    border-radius: 10px;
     display: flex;
-    justify-content: center; /* Centraliza os ícones horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    margin: 320px auto 0 auto; /* Move os ícones 4x mais para baixo */
+    justify-content: center;
+    align-items: center;
+    margin: 320px auto 0 auto;
 }
 
 /* Estiliza os ícones */
@@ -58,7 +58,6 @@ section {
 .social-container a:hover {
     color: #000;
     transform: scale(1.1);
-    text-decoration: none;
 }
 
 .about {
@@ -185,26 +184,21 @@ section {
     text-decoration: none;
 }
 
-/* Remove sublinhado e bordas de todos os links */
+/* Remove sublinhado de todos os links */
 a {
     text-decoration: none !important;
-    border: none !important;
-    outline: none !important;
 }
 
-/* Remove qualquer linha nas redes sociais e contatos */
+/* Remove sublinhado das redes sociais e do contato */
 .social-container a,
 .social-links a,
 .contact a {
     text-decoration: none !important;
-    border: none !important;
 }
 
-/* Remove linhas ao passar o mouse */
+/* Remove sublinhado ao passar o mouse */
 a:hover, a:focus {
     text-decoration: none !important;
-    border: none !important;
-    outline: none !important;
 }
 
 .footer {
