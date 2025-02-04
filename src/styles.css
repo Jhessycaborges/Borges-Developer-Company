@@ -9,18 +9,15 @@ section {
     padding: 7px; 
     text-transform: uppercase;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .destaque {
     color: #004cff;
-    text-decoration: none;
 }
 
 .destaque-black {
     color: #000000;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .hero {
@@ -34,38 +31,35 @@ section {
     margin-top: 250px;
     font-size: 2.5rem;
     font-weight: bold;
-    text-decoration: none;
 }
 
 /* Posiciona o container das redes sociais na altura desejada */
 .social-container {
-    width: 80%;
-    max-width: 250px;
-    height: 50px;
-    border: 2px solid #0047AB;
-    border-radius: 10px;
+    width: 80%; /* Mantém dentro do espaço adequado */
+    max-width: 250px; /* Evita que fique muito largo */
+    height: 50px; /* Altura do retângulo */
+    border: 2px solid #0047AB; /* Borda azul */
+    border-radius: 10px; /* Bordas arredondadas */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 320px auto 0 auto;
-    text-decoration: none;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 320px auto 0 auto; /* Move os ícones 4x mais para baixo */
 }
 
 /* Estiliza os ícones */
 .social-container a {
-    font-size: 1.5rem;
-    color: #0047AB;
-    margin: 0 10px;
+    font-size: 1.5rem; /* Tamanho dos ícones */
+    color: #0047AB; /* Azul padrão */
+    margin: 0 10px; /* Espaçamento entre os ícones */
     transition: 0.3s ease-in-out;
-    text-decoration: none;
 }
 
 /* Efeito hover nos ícones */
 .social-container a:hover {
-    color: #000;
+    color: #000; /* Muda para preto ao passar o mouse */
     transform: scale(1.1);
-    text-decoration: none;
 }
+
 
 .about {
     display: flex;
@@ -75,7 +69,6 @@ section {
     height: 100vh;
     text-align: center;
     border-bottom: 2px solid #004cff;
-    text-decoration: none;
 }
 
 .about-title {
@@ -84,7 +77,6 @@ section {
     font-weight: bold;
     position: relative;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .about-content {
@@ -93,7 +85,6 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
 }
 
 .about-text {
@@ -101,7 +92,6 @@ section {
     font-size: 1.3rem;
     word-wrap: break-word;
     overflow: hidden;
-    text-decoration: none;
 }
 
 .skills {
@@ -113,7 +103,6 @@ section {
     align-items: center;
     text-align: center;
     border-bottom: 2px solid #004cff;
-    text-decoration: none;
 }
 
 .skills-title {
@@ -123,7 +112,6 @@ section {
     margin-top: 10px;
     margin-bottom: 50px;
     text-align: center;
-    text-decoration: none;
 }
 
 .skills-img {
@@ -132,19 +120,28 @@ section {
     align-items: center;
     gap: 40px;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .skills-img div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-decoration: none;
 }
 
 .skills-img img:hover {
     transform: scale(1.1);
-    text-decoration: none;
+}
+
+.skills-html img:hover {
+    background-color: #ffa500;
+}
+
+.skills-css img:hover {
+    background-color: #0000ff;
+}
+
+.skills-js img:hover {
+    background-color: #ffff00;
 }
 
 .contact {
@@ -156,12 +153,10 @@ section {
     text-align: center;
     border-bottom: 1px solid #004cff;
     padding: 80px 10%;
-    text-decoration: none;
 }
 
 .contact p {
     margin-bottom: 20px;
-    text-decoration: none;
 }
 
 .contact a {
@@ -181,14 +176,12 @@ section {
     justify-content: center;
     gap: 20px;
     margin-top: 10px;
-    text-decoration: none;
 }
 
 .social-links a {
     font-size: 1.8rem;
     margin: 0 10px;
     color: #004cff;
-    text-decoration: none;
 }
 
 .footer {
@@ -199,7 +192,6 @@ section {
     font-size: 0.9rem;
     border-top: 1px solid #004cff;
     position: absolute;
-    text-decoration: none;
 }
 
 .footer-text {
@@ -207,7 +199,6 @@ section {
     font-family: 'Montserrat'; 
     font-size: 13px;
     color: #ffffff;
-    text-decoration: none;
 }
 
 /* Ajustes para telas menores que 768px */
@@ -218,43 +209,36 @@ section {
         text-align: left;
         font-size: 0.7rem;
         padding: 10px 7px;
-        text-decoration: none;
     }
 
     /* Centraliza e ajusta o texto principal */
     .hero-content {
         text-align: center;
         padding: 20px;
-        text-decoration: none;
     }
 
     .hero h2 {
         font-size: 1.8rem;
-        text-decoration: none;
     }
 
     .hero p {
         font-size: 1.2rem;
-        text-decoration: none;
     }
 
     /* Ajuste do "Sobre Nós" */
     .about-content {
         padding: 15px;
         text-align: center;
-        text-decoration: none;
     }
 
     .about-title {
         font-size: 2rem;
-        text-decoration: none;
     }
 
     .about-text {
         font-size: 1rem;
         line-height: 1.6;
         text-align: justify;
-        text-decoration: none;
     }
 
     /* Centraliza as habilidades */
@@ -262,36 +246,30 @@ section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-decoration: none;
     }
 
     .skills-img div {
         margin-bottom: 15px;
-        text-decoration: none;
     }
 
     .skills-img img {
-        width: 150px;
-        text-decoration: none;
+        width: 150px; /* Reduz o tamanho das imagens */
     }
 
     /* Ajuste do Contato */
     .contact-content {
         text-align: center;
         padding: 20px;
-        text-decoration: none;
     }
 
     .contact-title {
         font-size: 1.5rem;
         line-height: 1.4;
-        text-decoration: none;
     }
 
     .contact p {
         font-size: 1rem;
         margin-bottom: 10px;
-        text-decoration: none;
     }
 
     .social-links {
@@ -299,23 +277,19 @@ section {
         justify-content: center;
         gap: 15px;
         margin-top: 10px;
-        text-decoration: none;
     }
 
     .social-links a {
         font-size: 1.5rem;
-        text-decoration: none;
     }
 
     /* Ajuste do rodapé */
     .footer {
         text-align: center;
         padding: 10px;
-        text-decoration: none;
     }
 
     .footer-text {
         font-size: 0.9rem;
-        text-decoration: none;
     }
 }
