@@ -25,10 +25,10 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 79vh;
+    height: 80vh;
     text-align: center;
     border-bottom: 2px solid #004cff;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 2.5rem;
     font-weight: bold;
 }
