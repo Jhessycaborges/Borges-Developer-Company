@@ -25,10 +25,10 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 92vh;
+    height: 79vh;
     text-align: center;
     border-bottom: 2px solid #004cff;
-    margin-top: 55px;
+    margin-top: 50px;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -43,7 +43,7 @@ section {
     display: flex;
     justify-content: center; /* Centraliza os ícones horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    margin: 40px auto 0 auto;
+    margin: 35px auto 0 auto;
 }
 
 /* Estiliza os ícones */
