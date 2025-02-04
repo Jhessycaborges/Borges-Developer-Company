@@ -52,6 +52,7 @@ section {
     color: #0047AB; /* Azul padrão */
     margin: 0 10px; /* Espaçamento entre os ícones */
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 /* Efeito hover nos ícones */
