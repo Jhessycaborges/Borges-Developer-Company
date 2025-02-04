@@ -52,13 +52,13 @@ section {
     color: #0047AB; /* Azul padrão */
     margin: 0 10px; /* Espaçamento entre os ícones */
     transition: 0.3s ease-in-out;
-    text-decoration: none;
 }
 
 /* Efeito hover nos ícones */
 .social-container a:hover {
     color: #000; /* Muda para preto ao passar o mouse */
     transform: scale(1.1);
+    text-decoration: none;
 }
 
 
@@ -183,6 +183,7 @@ section {
     font-size: 1.8rem;
     margin: 0 10px;
     color: #004cff;
+    text-decoration: none;
 }
 
 .footer {
