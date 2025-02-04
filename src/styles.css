@@ -28,7 +28,7 @@ section {
     height: 79vh;
     text-align: center;
     border-bottom: 2px solid #004cff;
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -43,7 +43,7 @@ section {
     display: flex;
     justify-content: center; /* Centraliza os ícones horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    margin: 100px auto 0 auto; /* Move os ícones 4x mais para baixo */
+    margin: 80px auto 0 auto;
 }
 
 /* Estiliza os ícones */
