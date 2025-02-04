@@ -48,19 +48,18 @@ section {
 
 /* Estiliza os ícones */
 .social-container a {
-    font-size: 1.5rem; /* Tamanho dos ícones */
-    color: #0047AB; /* Azul padrão */
-    margin: 0 10px; /* Espaçamento entre os ícones */
+    font-size: 1.5rem;
+    color: #0047AB;
+    margin: 0 10px;
     transition: 0.3s ease-in-out;
 }
 
 /* Efeito hover nos ícones */
 .social-container a:hover {
-    color: #000; /* Muda para preto ao passar o mouse */
+    color: #000;
     transform: scale(1.1);
     text-decoration: none;
 }
-
 
 .about {
     display: flex;
@@ -186,6 +185,28 @@ section {
     text-decoration: none;
 }
 
+/* Remove sublinhado e bordas de todos os links */
+a {
+    text-decoration: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+/* Remove qualquer linha nas redes sociais e contatos */
+.social-container a,
+.social-links a,
+.contact a {
+    text-decoration: none !important;
+    border: none !important;
+}
+
+/* Remove linhas ao passar o mouse */
+a:hover, a:focus {
+    text-decoration: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
 .footer {
     background-color: #000000;
     width: 100%;
@@ -255,7 +276,7 @@ section {
     }
 
     .skills-img img {
-        width: 150px; /* Reduz o tamanho das imagens */
+        width: 150px;
     }
 
     /* Ajuste do Contato */
