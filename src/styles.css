@@ -25,13 +25,41 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 92vh;
+    height: 74vh;
     text-align: center;
     border-bottom: 2px solid #004cff;
-    margin-top: 25px;
+    margin-top: 250px;
     font-size: 2.5rem;
     font-weight: bold;
 }
+
+/* Posiciona o container das redes sociais na altura desejada */
+.social-container {
+    width: 80%; /* Mantém dentro do espaço adequado */
+    max-width: 250px; /* Evita que fique muito largo */
+    height: 50px; /* Altura do retângulo */
+    border: 2px solid #0047AB; /* Borda azul */
+    border-radius: 10px; /* Bordas arredondadas */
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 320px auto 0 auto; /* Move os ícones 4x mais para baixo */
+}
+
+/* Estiliza os ícones */
+.social-container a {
+    font-size: 1.5rem; /* Tamanho dos ícones */
+    color: #0047AB; /* Azul padrão */
+    margin: 0 10px; /* Espaçamento entre os ícones */
+    transition: 0.3s ease-in-out;
+}
+
+/* Efeito hover nos ícones */
+.social-container a:hover {
+    color: #000; /* Muda para preto ao passar o mouse */
+    transform: scale(1.1);
+}
+
 
 .about {
     display: flex;
@@ -173,41 +201,95 @@ section {
     color: #ffffff;
 }
 
-/* Responsividade */
-@media (max-width: 1024px) {
-    section {
-        padding: 60px 5%;
-    }
-    .hero, .about, .skills, .contact {
-        height: auto;
-        padding: 60px 5%;
-    }
-    .skills-img {
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-}
+/* Ajustes para telas menores que 768px */
+@media screen and (max-width: 768px) {
 
-@media (max-width: 768px) {
-    .hero {
+    /* Ajusta o cabeçalho */
+    .logo {
+        text-align: left;
+        font-size: 0.7rem;
+        padding: 10px 7px;
+    }
+
+    /* Centraliza e ajusta o texto principal */
+    .hero-content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    /* Ajuste do "Sobre Nós" */
+    .about-content {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .about-title {
         font-size: 2rem;
     }
-    .skills-img img {
-        width: 100px;
-    }
-    .contact {
-        padding: 40px 5%;
-    }
-}
 
-@media (max-width: 480px) {
-    .hero {
+    .about-text {
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    /* Centraliza as habilidades */
+    .skills-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-img div {
+        margin-bottom: 15px;
+    }
+
+    .skills-img img {
+        width: 150px; /* Reduz o tamanho das imagens */
+    }
+
+    /* Ajuste do Contato */
+    .contact-content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .contact-title {
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+
+    .contact p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .social-links a {
         font-size: 1.5rem;
     }
-    .skills-img img {
-        width: 80px;
+
+    /* Ajuste do rodapé */
+    .footer {
+        text-align: center;
+        padding: 10px;
     }
-    .contact {
-        padding: 30px 5%;
+
+    .footer-text {
+        font-size: 0.9rem;
     }
 }
